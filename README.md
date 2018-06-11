@@ -1,3 +1,10 @@
+# Notes: 
+Thanks to the author. The project works well for Android emulator. 
+However, the character of 1 has been changed in the game. 
+I just add new picuture of 1 and regenerate the hash file.
+It works for me until about 200 rounds. Maybe the reasion is the limited hardware of my laptop.
+
+
 # 微信小游戏《加减大师》辅助
 ![language-python](https://img.shields.io/badge/language-python-blue.svg)
 [![Build Status](https://travis-ci.org/clouduan/WechatGameAutoPlayer.svg?branch=master)](https://travis-ci.org/clouduan/WechatGameAutoPlayer)
