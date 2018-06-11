@@ -36,7 +36,7 @@ def Play():
     flag = ""
     while True:
         # start = time.perf_counter()
-        time.sleep(0.1)
+        time.sleep(0.01)
         try:
             scr = get_screenshot()
             expr = recognize(scr)
@@ -52,6 +52,7 @@ def Play():
         except:
             if 'scr' in vars():
                 scr.save('failed.png')
+            break
             print('Error occurred: ')
             print(traceback.print_exc())
         # print('One loop: ', time.perf_counter() - a)

@@ -132,6 +132,6 @@ if __name__ == '__main__':
     """
     以下代码只用于debug
     """
-    scr = Image.open('Screenshots/0th.png')
-    scr = scr.crop([0, 750, 1080, 1150])
+    scr = Image.open('screenshot.png')
+    # scr = scr.crop([0, 750, 1080, 1150])
     print(recognize(scr))
